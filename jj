@@ -1,0 +1,141 @@
+<style>
+body { 
+background: url(https://i.gifer.com/76YS.gif);
+}
+nav .top {
+display: flex!important;
+opacity: 1!important;
+background: none;
+border: darkorange solid 3px;
+border-radius: 30px;
+}
+
+/* spacehey logo */
+nav img.logo{filter: brightness(105) saturate(80%) invert(36%) sepia(13%) saturate(245%) hue-rotate(280deg) brightness(90%) contrast(50%); !important;}
+nav .links, footer .links {
+margin: 0;
+list-style: none;
+background: none;
+}
+
+main{
+     background-color: black!important;
+     background-attachment: fixed !important;
+     }
+main{
+    color: #F8F0E3;
+    padding: 6px 0px;
+    font-size: 89%;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    border: dodgerblue 3px solid;
+    border-radius:30px;
+}
+ a:any-link {
+   color: rgb(248, 240, 227);
+   text-decoration: underline;
+   cursor: auto;
+}
+nav, footer, .profile .contact {
+display: inherit!important;
+opacity: 1!important;
+background: none;
+}
+#q {
+border-radius: 30px;
+border-style: solid;
+}
+  .profile .blurbs .heading,
+  .profile .friends .heading {
+    background-color: black;
+  }
+  .profile .contact .heading, 
+  .profile .table-section .heading{
+      background-color: black;
+  }
+.profile .contact, .profile .url-info, .profile .table-section, .home-actions {
+    width: 100%;
+    border: 3px solid #ff8c00;
+    border: 3px solid var(--#ff8c00);
+    border-radius: 10px;
+border-style: solid;
+    margin: 10px 0;
+}
+.profile .blurbs .heading, .profile .friends .heading {
+        color: #ffffff;
+}
+element.style {
+    /* border-bottom: dotted; */
+    border: darkorange 4px solid;
+    border-radius: 10px;
+    border-style: solid;
+}
+.count {
+    color: #8790ff;
+}
+.profile .blurbs .section h4 {
+    margin: 0;
+    color: #ED0707;
+    color: #8790ff;
+}
+.details-table td {
+    background: none;
+    vertical-align: top;
+}
+.profile .contact .heading, .profile .table-section .heading {
+    background: none;
+}
+.col.right {
+    border: #8790ff solid 3px;
+    border-radius: 30px;
+}
+{
+.profile-pic, .profile .friends .person img:not(.icon), .profile .friends .person p, .profile h1{ 
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+/* contact icons */
+.contact .inner a img {
+font-size: 0;
+}
+.contact .inner a img:before {
+font-size: 1em;
+display: block
+}
+.contact .inner .f-row:nth-child(1) .f-col:nth-child(1) a:before {
+/* add to friends */
+content: "🤠"
+}
+.contact .inner .f-row:nth-child(1) .f-col:nth-child(2) a:before {
+/* add to favorite */
+content: "🌟"
+}
+.contact .inner .f-row:nth-child(2) .f-col:nth-child(1) a:before {
+/* send a message */
+content: "✍️"
+}
+.contact .inner .f-row:nth-child(2) .f-col:nth-child(2) a:before {
+/* foward to friend*/
+content: "💫"
+}
+.contact .inner .f-row:nth-child(3) .f-col:nth-child(1) a:before {
+/* instant message */
+content: "✨"
+}
+.contact .inner .f-row:nth-child(3) .f-col:nth-child(2) a:before {
+/* block user */
+content: "😧"
+}
+.contact .inner .f-row:nth-child(4) .f-col:nth-child(1) a:before {
+/* add 2 group  */
+content: "👨‍🎤"
+}
+.contact .inner .f-row:nth-child(4) .f-col:nth-child(2) a:before {
+/* report */
+content: "🐻"
+}
+</style>
