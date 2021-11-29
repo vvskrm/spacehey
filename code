@@ -12,7 +12,7 @@ list-style: none;
 background: none;
 }
 main{
-     background-image: url("https://c.tenor.com/f_hgZ32UuSsAAAAd/lil-uzi.gif") !important;
+     background-image: url("https://media4.giphy.com/media/PbOaO2fedzQLm/giphy.gif") !important;
      background-color: black !important;
      background-attachment: fixed !important;
      margin: 0;
